@@ -1,5 +1,5 @@
 filename = input("Input the Filename: ")
-extns = filename.split(".") # split()- Splits the string at the specified separator, and returns a list
+extns = filename.split(".") # split()- Splits the string at the specified separator (.) and returns a list ['abc','python']
 print ("The extension of the file is : " ,extns[-1])# -1 indicates the last element in a sequence
 
 #OUTPUT
