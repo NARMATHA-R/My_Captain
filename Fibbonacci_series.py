@@ -3,7 +3,7 @@ n = int(input("Enter the value of 'n': "))
 a = 0
 b = 1
 sum = 0
-count = 1
+count = 1 # just a variable to count the sequence of fibonacci series
 print("Fibonacci Series: ",sum)
 while(count <= n):
   print(sum)
